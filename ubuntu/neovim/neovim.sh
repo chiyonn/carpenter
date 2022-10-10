@@ -16,3 +16,6 @@ unzip $DIR_PATH/SourceCodePro.zip -d $HOME/.fonts
 rm $DIR_PATH/SourceCodePro.zip
 sudo fc-cache -fv
 REBOOT=1
+
+# for plugins dependencies
+sudo apt install exuberant-ctags

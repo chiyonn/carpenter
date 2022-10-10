@@ -4,6 +4,7 @@ alias aliases='$EDITOR $HOME/.bash_aliases && source $HOME/.bash_aliases'
 
 alias c='clear'
 
-alias heyweb='ssh chiyonn@192.168.40.102'
+alias hiapi='ssh chiyonn@192.168.40.103'
+alias hiweb='ssh chiyonn@192.168.40.102'
 
 alias i3conf='$EDITOR $HOME/.config/i3/config'

@@ -5,4 +5,5 @@ source /etc/os-release
 
 OS_DIR=$BASE_DIR/$ID
 OS_SCRIPT=$OS_DIR/$ID.sh
-source $OS_SCRIPT
+#source $OS_SCRIPT
+echo $OS_SCRIPT
