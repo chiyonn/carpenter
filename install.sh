@@ -1,5 +1,8 @@
 #!/bin/sh
 
+WORNING=""
+REBOOT=0
+
 BASE_DIR=$(cd $(dirname $0); pwd)
 source /etc/os-release
 
